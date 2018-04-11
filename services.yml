@@ -1,0 +1,10 @@
+version: 2
+services:
+  webapp:
+    git_url: git@github.com:sravan1990/kd-webapp.git
+    git_branch: master
+    ports:
+    - container: 8000
+      http: 80
+    dockerfile_path: Dockerfile
+    command: python3 manage.py runserver 0.0.0.0:8000

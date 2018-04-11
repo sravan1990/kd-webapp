@@ -1,0 +1,3 @@
+docker:
+  cluster: cloud66_deploy
+  configuration: {}
